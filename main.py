@@ -1,1 +1,1 @@
-print('This is the start of my Python journey')
+print('This is the start of my Python journey!')
