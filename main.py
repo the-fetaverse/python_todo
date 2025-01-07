@@ -8,12 +8,10 @@ while True:
             todo = input('Please type a todo: ')
             todos.append(todo)
         case 'show':
-            print(todos)
+            print('Here is a list of your todos:')
+            for item in todos:
+                print(item)
         case 'exit':
             break
 
 print('Bye!')
-
-# user_action should be part of the while loop.
-# If user_action is moved out of the while loop block,
-# we create an infinite loop.
